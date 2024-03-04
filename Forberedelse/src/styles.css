@@ -1,0 +1,13 @@
+* {
+  background-color: antiquewhite;
+}
+
+.number-buttons {
+  display: flex;
+}
+
+#HjemmesideTitel {
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+}

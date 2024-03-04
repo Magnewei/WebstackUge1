@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Carpool</title>
+</head>
+<body>
+
+  <div class="carpool-header">
+    <img id="img" src="carpool_topbanner.jpg" />
+    <div class="headerSquare">
+      <h1 id="BornholmHeader">Velkommen til Carpool Bornholm</h1>
+      <h2 id="BornholmSub">Find nogen at køre sammen med</h2>
+    </div>
+  </div>
+
+  <div class="setDate">
+    <p>Vælg dato:</p>
+    <input type="date" id="date" />
+  </div>
+
+  <div class="radiobuttons">
+    <div>
+      <input type="radio" id="radiobutton" name="chauffør" value="HTML" />
+      <label id="label" for="html">Chauffør</label><br />
+    </div>
+    <div>
+      <input type="radio" id="radiobutton" name="passager" value="HTML" />
+      <label id="label" for="html">Passager</label><br />
+    </div>
+  </div>
+
+  <div class="drop">
+    <div class="dropDowns">
+      <label for="dog-names">Fra:</label>
+      <select name="" id="dropdown">
+        <option value="rigatoni">Rigatoni</option>
+        <option value="dave">Dave</option>
+        <option value="pumpernickel">Pumpernickel</option>
+        <option value="reeses">Reeses</option>
+      </select>
+
+      <label for="dog-names">Til:</label>
+      <select name="dog-names" id="dropdown">
+        <option value="rigatoni">Rigatoni</option>
+        <option value="dave">Dave</option>
+        <option value="pumpernickel">Pumpernickel</option>
+        <option value="reeses">Reeses</option>
+      </select>
+    </div>
+
+    <div class="driveButton">
+      <button id="driveButton" type="button">Find kørelejelighed</button>
+    </div>
+
+  </div>
+</body>
+</html>
+<script src="script.js"></script>

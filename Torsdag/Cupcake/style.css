@@ -1,0 +1,105 @@
+:root {
+  background-color: whitesmoke;
+  font-family: "Arial Narrow";
+  --menubar-spacing: 3%;
+  --menubar-gap: 1%;
+  --border-rad: 19px;
+}
+
+article {
+  width: clamp(320px, 90%, 1fr);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: palegreen;
+  border-radius: var(----border-rad);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.menu-bar {
+  display: flex;
+  background-color: palegreen;
+  border-radius: var(----border-rad);
+  margin-top: 1%;
+  border-radius: 5px;
+}
+
+.left-side {
+  margin-right: auto;
+  gap: var(--menubar-gap);
+  margin-left: var(--menubar-spacing);
+}
+
+.right-side {
+  margin-left: auto;
+  gap: var(--menubar-gap);
+  margin-right: var(--menubar-spacing);
+}
+
+#Welcome-Text {
+  margin-left: 2%;
+  font-size: 3vw;
+}
+
+#Welcome-Subtext {
+  margin-left: 2%;
+  margin-top: -2px;
+  font-size: 2vw;
+}
+
+.dropDowns {
+  display: flex;
+  justify-content: space-around;
+  gap: 1vw;
+}
+
+#dropDown {
+  width: 25em;
+  font-size: 16px;
+}
+
+.Welcome {
+  margin-top: -1%;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+#menuButton {
+  background-color: palegreen;
+  padding: 10px;
+  font-size: 1vw;
+  border: none;
+}
+
+.purchase-button {
+  display: flex;
+  justify-content: right;
+}
+
+#purchase-button {
+  background-color: rgb(17, 30, 143);
+  padding: 15px 32px;
+  font-size: 1vw;
+  border: 2px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#purchase-button,
+#menuButton {
+  color: black;
+  font-family: "Arial Narrow";
+  transition-duration: 0.4s;
+}
+
+#purchase-button:hover,
+#menuButton:hover {
+  background-color: white;
+  transition-duration: 0.4s;
+}
