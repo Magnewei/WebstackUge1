@@ -89,6 +89,7 @@
 
 #BornholmHeader {
   justify-content: center;
+  margin-top: 0%;
   font-size: 2vw;
 }
 
@@ -179,8 +180,8 @@
   }
 
   #BornholmSub {
-    font-size: 20px;
-    margin-top: -10%;
+    font-size: 18px;
+    margin-top: -2%;
     text-align: center;
   }
 
