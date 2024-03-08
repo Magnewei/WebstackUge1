@@ -3,6 +3,10 @@
   font-family: "Arial Narrow";
 }
 
+* {
+  min-width: 0%;
+}
+
 #img {
   display: block;
   margin-left: auto;
@@ -98,7 +102,7 @@ a {
   }
 
   #button {
-    width: 80%;
+    width: 90%;
     padding-bottom: 15%;
   }
 }
